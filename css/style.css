@@ -1,0 +1,41 @@
+/* /////////////////////////////////////////////////////*/
+/*[ importation du dossier _base ]*/
+@import url('base/variables.css');
+@import url('base/reset.css');
+/* @import url('base/dev.css'); */
+@import url('base/typo.css');
+
+/*[ importation du dossier _composant ]*/
+@import 'composants/header--principal.css';
+@import 'composants/header--principal--index.css';
+@import 'composants/logo.css';
+@import 'composants/nav--primary.css';
+@import 'composants/nav--liste--principal.css';
+@import 'composants/nav--close.css';
+@import 'composants/btn--icone.css';
+@import 'composants/footer.css';
+@import 'composants/header--titre--page.css';
+@import 'composants/section--en-vedette.css';
+@import 'composants/div--contenue--en--vedette.css';
+@import 'composants/section--chef.css';
+@import 'composants/nav--secondaire.css';
+@import 'composants/nav--interaction.css';
+@import 'composants/div--plat.css';
+@import 'composants/div--category.css';
+@import 'composants/grid--plats.css';
+@import 'composants/fenetre--plat.css';
+@import 'composants/section--ouverture--restaurant.css';
+@import 'composants/div--404.css';
+@import 'composants/fils--ariane.css';
+@import 'composants/div--contenue.css';
+@import 'composants/swiper.css';
+@import 'composants/section--reservation.css';
+@import 'composants/lien--reserver.css';
+@import 'composants/section--plats.css';
+
+
+
+/*[ importation du dossier _layout ]*/
+@import url('layout/structure.css');
+
+/* /////////////////////////////////////////////////////*/

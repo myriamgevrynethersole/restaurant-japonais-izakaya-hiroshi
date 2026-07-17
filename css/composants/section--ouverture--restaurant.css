@@ -1,0 +1,35 @@
+/* SECTION--OUVERTURE--RESTAURANT */
+/* ---------------------------------------- */
+#section--ouverture--restaurant {
+    box-sizing: border-box;
+    position: relative;
+    height: fit-content;
+    background-color: var(--bleu-pale);
+    /* border: solid var(--bleu-pale) 10px; */
+    padding: var(--xxs);
+
+    @media (min-width: 748px) {
+       padding: var(--xxs); 
+    }
+
+    @media (min-width: 1024px) { 
+        padding: var(--xxs); 
+    }
+
+    h2 {
+        font-size: var(--xs);
+
+        @media (min-width: 748px) {
+            font-size: var(--m);
+        }
+         @media (min-width: 1024px) {
+            font-size: var(--l);
+        }
+
+    }
+
+    p {
+        text-align: center;
+        margin-top: var(--xxxs);
+    }
+}

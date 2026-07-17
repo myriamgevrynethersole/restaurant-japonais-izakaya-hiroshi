@@ -1,0 +1,32 @@
+.lien-reserver {
+    position: absolute;
+    bottom: var(--m);
+    left: var(--m);
+    z-index: 20;
+    display: block;
+    font-family: 'Louis George Cafe Bold';
+    padding: 0.1rem 2rem;
+    background-color: var(--rouge);
+    color: var(--blanc);
+    border-radius: 60px;
+    
+
+    @media (min-width: 1024px) {
+        bottom: var(--xs);
+        right: var(--xs);
+        left: unset;
+    }
+
+    @media (min-width: 1440px) {
+        right: var(--s);
+        bottom: var(--s);
+       
+    }
+}
+
+
+.lien-reserver:hover {
+    background-color: var(--rouge-pale);
+    color: var(--blanc);
+    transition: background-color 0.3s ease;
+}

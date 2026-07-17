@@ -1,0 +1,21 @@
+/*[ COMPOSANT HEADER ]*/
+/* ------------------------------------------------------------ */
+
+#header--principal--index {
+    position: relative;
+    height: 100vh;
+    max-width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    
+    video{
+        object-fit: cover;
+        z-index: 1;
+        position: absolute;
+        right: 50%;
+        translate: 50% 0%;
+        min-height: inherit;
+        max-width: inherit;
+    }
+
+}

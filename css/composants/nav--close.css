@@ -1,0 +1,18 @@
+/*[ COMPOSANT NAV -- CLOSE ]*/
+/* ------------------------------------------------------------ */
+
+/* #nav--primary #btn--close {
+    position: absolute;
+    top: var(--xxs);
+    right: var(--xxs);
+    width: var(--m);
+    cursor: pointer;
+
+    @media (min-width: 748px) {
+        top: var(--xs);
+        right: var(--xs);
+        width: var(--l);
+    }
+
+
+} */

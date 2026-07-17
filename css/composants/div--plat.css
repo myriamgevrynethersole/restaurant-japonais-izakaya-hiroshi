@@ -1,0 +1,107 @@
+/* DIV--PLAT */
+/* --------------------------------------------------- */
+
+.div--categorie--plats {
+  padding: var(--xs) 0;
+
+  @media (min-width: 748px) {
+    padding: var(--s) 0;
+  }
+
+  @media (min-width: 1024px) {
+    padding: var(--m) 0;
+  }
+
+  @media (min-width: 1440px) {
+    padding: var(--xl) 0;
+  }
+
+
+}
+
+.div--plat {
+  display: grid;
+  position: relative;
+  height: 280px;
+  width: auto;
+  grid-template-rows: 50% 50%;
+  gap: var(--xxxs);
+  border-radius: 30px;
+  background-color: var(--rouge-dark);
+  margin: 0;
+  padding: var(--xs);
+  aspect-ratio: 4 / 5;
+
+  @media (min-width: 748px) {}
+
+  @media (min-width: 1024px) {
+    height: 300px;
+  }
+
+  @media (min-width: 1440px) {
+     height: 400px;
+  }
+
+
+
+
+  .image--plat {
+    z-index: 0;
+    object-fit: cover;
+    border-radius: 15px;
+    max-height: 100%;
+
+  }
+
+  .info--plat {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 15px;
+    z-index: 1;
+    width: 100%;
+    overflow-x: hidden;
+    color: var(--blanc);
+    text-align: center;
+    align-self: center;
+
+  }
+
+
+
+}
+
+.rouge {
+  .div--plat {
+    background-color: var(--rouge-dark);
+    
+
+  }
+}
+
+.orange {
+  .div--plat {
+    background-color: var(--orange-dark);
+    ;
+
+  
+  }
+}
+
+.jaune {
+  .div--plat {
+    background-color: var(--jaune-dark);
+  }
+}
+
+.bleu {
+  .div--plat {
+    background-color: var(--bleu);
+  }
+}
+
+.bleu--gris {
+  .div--plat {
+    background-color: var(--bleu-gris);
+  }
+}

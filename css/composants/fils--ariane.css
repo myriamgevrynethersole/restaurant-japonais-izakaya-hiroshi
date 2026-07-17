@@ -1,0 +1,28 @@
+.fils--ariane{
+    padding: var(--xxs);
+
+     @media (min-width: 748px) {
+       padding: var(--xs);
+    }
+     @media (min-width: 1024px) {
+        padding: var(--s);
+    }
+    a{
+        font-family: 'Louis George Cafe Light';
+        font-size: var(--xxs);
+        color: gray;
+    
+        @media (min-width: 400px) {
+            font-size: 20px;
+        }
+    
+    
+        @media (min-width: 1024px) {
+            font-size: var(--xs);
+        }
+    
+        @media (min-width: 1440px) {
+            font-size: var(--s);
+        }
+    }
+}

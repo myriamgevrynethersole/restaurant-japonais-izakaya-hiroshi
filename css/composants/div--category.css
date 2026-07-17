@@ -1,0 +1,20 @@
+/* DIV-CATEGORY*/
+/* ------------------------------------------------ */
+
+div.div_plat_sans_categories,
+div.categorie {
+    margin-top: var(--xxs);
+    margin-bottom: var(--xl);
+
+    @media (min-width: 748px) {
+        margin-top: var(--s);
+    }
+    @media (min-width: 1024px) {
+        margin-top: var(--m);
+        margin-bottom: var(--xxl);
+    }
+    @media (min-width: 1440px) {
+        margin-top: var(--l);
+        margin-bottom: var(--xxl);
+    }
+}

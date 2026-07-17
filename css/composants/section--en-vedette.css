@@ -1,0 +1,41 @@
+/* SECTION EN VEDETTE */
+/* ------------------------------------------------------------ */
+#section--en-vedette {
+    position: relative;
+    z-index: 1;
+
+    .image--fond--nouilles {
+        position: absolute;
+        margin-top: 15vw;
+        z-index: -2;
+        top: 0%;
+        width: auto;
+        right: 50%;
+        translate: 50% 0%;
+        height: 100%;
+
+
+
+    }
+
+    .image_bol {
+        position: absolute;
+        scale: 1.5;
+
+
+    }
+
+
+    #bol_devant {
+        position: absolute;
+        bottom: -15vw;
+        z-index: -1;
+    }
+
+    #bol_deriere {
+        position: absolute;
+        bottom: -15vw;
+        z-index: -3;
+    }
+
+}

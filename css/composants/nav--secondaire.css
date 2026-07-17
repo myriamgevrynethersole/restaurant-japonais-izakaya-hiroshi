@@ -1,0 +1,37 @@
+/* NAV--SECONDAIRE */
+/* ----------------------------------------------*/
+.nav--secondaire {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    flex-wrap: wrap;
+    gap: var(--xxxs);
+
+    @media (min-width: 1024px) {
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+
+
+    a {
+        text-align: center;
+        width: 100%;
+        padding: 4px;
+        border: solid 2px var(--bleu-gris);
+        border-radius: 50px;
+
+        @media (min-width: 748px) {
+            width: 70%;
+        }
+
+        @media (min-width: 1024px) {
+            width: 49%;
+        }
+
+    }
+
+    
+}

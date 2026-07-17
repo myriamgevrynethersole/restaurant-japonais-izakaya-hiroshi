@@ -1,0 +1,123 @@
+/*[ STRUCTURE GÉNÉRALE DE LA PAGE ]*/
+/* ------------------------------------------------------------ */
+.interface {
+    display: flow-root;
+    height:auto;
+    box-sizing: border-box;
+    background-color: var(--blanc);
+    position: relative;
+    max-width: 100dvw;
+    min-height: 100dvh;
+   
+  
+    background-image: url("../../assets/images/png/motif01.png");
+
+    background-position: center;
+    background-blend-mode: normal;
+    background-attachment: fixed;
+    background-repeat: repeat;
+    background-size: 40vw;
+
+
+}
+
+section {
+    overflow: hidden;
+    background-color:  rgba(255, 246, 230, 0.75);
+    padding: var(--xxs); 
+    
+    @media (min-width: 748px) {
+        padding: var(--xs);
+    }
+
+    @media (min-width: 1024px) {
+        padding: var(--s);
+    }
+}
+
+h1 {
+    font-family: 'Hoshiko Satsuki', cursive;
+    font-size: var(--s);
+    text-align: center;
+
+}
+
+h2 {
+    font-family: 'Arboreto';
+    text-align: center;
+    font-size: var(--s);
+
+    @media (min-width: 748px) {
+        font-size: var(--m);
+    }
+
+    @media (min-width: 1440px) {
+        font-size: var(--l);
+    }
+
+}
+
+h3 {
+    font-family: 'Louis George Cafe Bold';
+    font-size: var(--xxs);
+
+    @media (min-width: 748px) {
+        font-size: 20px;
+    }
+
+
+    @media (min-width: 1024px) {
+        font-size: var(--xs);
+    }
+
+    @media (min-width: 1440px) {
+        font-size: var(--s);
+    }
+
+}
+
+p,
+.compteur {
+    font-family: 'Louis George Cafe Light';
+    font-size: var(--xxs);
+
+    @media (min-width: 748px) {
+        font-size: 20px;
+    }
+
+
+    @media (min-width: 1024px) {
+        font-size: var(--xs);
+    }
+
+    @media (min-width: 1440px) {
+        font-size: var(--s);
+    }
+}
+
+li {
+    font-family: 'Louis George Cafe Light';
+    font-size: var(--xxs);
+
+    @media (min-width: 748px) {
+        font-size: var(--xs);
+    }
+
+    @media (min-width: 1440px) {
+        font-size: var(--s);
+    }
+}
+
+a {
+    font-family: 'Louis George Cafe Light';
+    font-size: var(--xxs);
+
+    @media (min-width: 748px) {
+        font-size: var(--s);
+    }
+
+    @media (min-width: 1440px) {
+        font-size: var(--m);
+    }
+
+}

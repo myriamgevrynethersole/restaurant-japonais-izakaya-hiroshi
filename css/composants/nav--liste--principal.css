@@ -1,0 +1,54 @@
+/*[ COMPOSANT NAV--LISTE--PRINCIPAL ]*/
+/* ------------------------------------------------------------ */
+
+/*[ Liste du menu principal - <ul> ]*/
+nav .nav--liste--principal {
+    background-color: var(--beige);
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    list-style: none;
+    box-sizing: border-box;
+    gap: var(--xxs);
+    padding: var(--xxs) 0;
+    margin: var(--xxs) var(--m);
+    height: fit-content;
+    border-radius: var(--s);
+
+
+    @media (min-width: 748px) {
+        margin: var(--xxs) var(--m);
+    }
+
+    @media (min-width: 1024px) {
+        gap: var(--s);
+        padding: var(--s) 0;
+        margin: var(--xs) var(--xs);
+        order: 3;
+        align-self: center;
+    }
+
+    @media (min-width: 1440px) {
+        gap: var(--s);
+        padding: var(--s) 0;
+        margin: var(--s) var(--s);
+    }
+
+}
+
+/*[ Les liens du menu principal - <a> ]*/
+.nav--element a {
+    font-family: 'Arboreto';
+    display: block;
+
+    text-align: center;
+    box-sizing: border-box;
+
+
+
+}
+
+/*[ Animatin des éléments du menu ]*/
+.fadeMenu {
+    transition: opacity 0.5s ease-in-out;
+}

@@ -1,0 +1,31 @@
+#section--reservation {
+    background-color: var(--bleu);
+
+    text-align: center;
+
+    a {
+        font-family: 'Louis George Cafe Bold';
+        font-size: var(--xxs);
+
+        @media (min-width: 748px) {
+            font-size: 20px;
+        }
+
+
+        @media (min-width: 1024px) {
+            font-size: var(--xs);
+        }
+
+        @media (min-width: 1440px) {
+            font-size: var(--s);
+        }
+    }
+
+    a:hover {
+        color: var(--blanc);
+    }
+
+    span{
+        font-family: 'Louis George Cafe Bold';
+    }
+}

@@ -1,0 +1,16 @@
+.div--contenue{
+    margin: var(--xxxs) 0 ;
+    
+    @media (min-width: 748px) {
+        margin: var(--xxs) 0 ;
+    }
+
+    @media (min-width: 1024px) {
+        margin: var(--xs) 0 ;
+    }
+    
+    @media (min-width: 1440px) {
+        margin: var(--s) 0 ;
+    }
+    
+}

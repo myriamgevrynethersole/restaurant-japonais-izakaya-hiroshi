@@ -1,0 +1,124 @@
+/* NAV__HOVER */
+/* -------------------------------------------------------------------- */
+
+
+.rouge {
+    nav {
+        a:hover {
+            color: var(--rouge);
+            transition: color 0.15s ease;
+           
+        }
+
+    }
+
+    .nav--secondaire {
+        a:hover {
+            color: var(--rouge);
+            border: solid 2px var(--rouge);
+
+            transition: color 0.15s ease;
+            transition: border 0.15s ease;
+        }
+
+        .button--nav--secondaire--selectionner {
+            color: var(--blanc);
+            border: solid 2px var(--rouge);
+            background-color: var(--rouge);
+
+             transition: color 0.15s ease;
+            transition: border 0.15s ease;
+        }
+
+    }
+}
+
+.orange {
+    nav {
+        a:hover {
+            color: var(--orange);
+            transition: color 0.15s ease;
+        }
+
+
+    }
+
+    .nav--secondaire {
+        a:hover {
+            color: var(--orange);
+            border: solid 2px var(--orange);
+            transition: color 0.15s ease;
+            transition: border 0.15s ease;
+        }
+
+        .button--nav--secondaire--selectionner {
+            color: var(--blanc);
+            border: solid 2px var(--orange);
+            background-color: var(--orange);
+           
+            transition: color 0.15s ease;
+            transition: border 0.15s ease;
+           
+        }
+    }
+}
+
+.jaune {
+    nav {
+        a:hover {
+            color: var(--jaune);
+            transition: color 0.15s ease;
+        }
+
+    }
+
+    .nav--secondaire {
+        a:hover {
+            color: var(--jaune);
+            border: solid 2px var(--jaune);
+            transition: color 0.15s ease;
+            transition: border 0.15s ease;
+        }
+
+        .button--nav--secondaire--selectionner {
+            color: var(--blanc);
+            border: solid 2px var(--jaune);
+            background-color: var(--jaune);
+
+            transition: color 0.15s ease;
+            transition: border 0.15s ease;
+           
+        }
+
+    }
+
+}
+
+.bleu,
+.bleu--gris {
+    nav {
+        a:hover {
+            color: var(--bleu);
+            transition: color 0.15s ease;
+        }
+
+    }
+
+    .nav--secondaire {
+        a:hover {
+            color: var(--bleu);
+            border: solid 2px var(--bleu);
+            transition: color 0.15s ease;
+            transition: border 0.15s ease;
+        }
+
+        
+        .button--nav--secondaire--selectionner {
+            color: var(--bleu);
+            border: solid 2px var(--bleu);
+            background-color: var(--bleu);
+            transition: color 0.15s ease;
+            transition: border 0.15s ease;
+        }
+    }
+}

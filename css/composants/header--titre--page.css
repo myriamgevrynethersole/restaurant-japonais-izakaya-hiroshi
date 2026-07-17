@@ -1,0 +1,53 @@
+.header--titre--page {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: var(--xl) 0 var(--s);
+    gap: var(--xxs);
+    background-color: var(--beige);
+    padding: var(--xs);
+
+    @media (min-width: 748px) {
+        margin: var(--xxl) 0 var(--l);
+        gap: var(--xs);
+    }
+
+    @media (min-width: 1440px) {
+        margin: var(--xxl) 0 var(--xl);
+        gap: var(--m);
+    }
+
+    h1 {
+        position: relative;
+        text-align: right;
+        font-family: 'Hoshiko Satsuki', cursive;
+        font-size: 30px;
+        max-width: 50%;
+
+
+        @media (min-width: 500px) {
+            font-size: 50px;
+        }
+
+        @media (min-width: 748px) {
+            font-size: 70px;
+        }
+
+          @media (min-width: 1024px) {
+            font-size: 100px;
+        }
+
+        @media (min-width: 1440px) {
+            font-size: var(--xxl);
+        }
+    }
+
+    .ilustration--titre--page {
+        position: relative;
+        height: 20vw;
+
+    }
+
+}

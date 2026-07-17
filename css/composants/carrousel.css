@@ -1,0 +1,68 @@
+ /*[ Conteneur des commandes du carrousel ]*/
+
+ .slide--command {
+     position: absolute;
+     z-index: 1000;
+     bottom: -2rem;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     width: 100%;
+
+     @media (min-width: 748px) {
+         bottom: -3rem;
+     }
+
+     @media (min-width: 1440px) {
+         bottom: -3.5rem;
+     }
+ }
+
+ .swiper-pagination-bullet {
+     border-radius: 50%;
+     width: 12px;
+     height: 12px;
+     margin: 0 1rem !important;
+
+     @media (min-width: 1024px) {
+         width: 16px;
+         height: 16px;
+     }
+
+     @media (min-width: 1440px) {
+         width: 20px;
+         height: 20px;
+     }
+ }
+.rouge{
+    .swiper-pagination-bullet-active {
+        background-color: var(--rouge);
+    }
+}
+.orange{
+    .swiper-pagination-bullet-active {
+        background-color: var(--orange);
+    }
+}
+.jaune{
+    .swiper-pagination-bullet-active {
+        background-color: var(--jaune);
+    }
+}
+.bleu{
+    .swiper-pagination-bullet-active {
+        background-color: var(--bleu);
+    }
+}
+.bleu--gris{
+    .swiper-pagination-bullet-active {
+        background-color: var(--bleu-gris);
+    }
+}
+
+ swiper-container {
+     overflow: hidden;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }

@@ -1,0 +1,39 @@
+/*[ VARIABLES DU PROJET ]*/
+/* ------------------------------------------------------------ */
+:root{
+    /*[ COULEURS ]*/
+    --blanc: #FFF6E6;
+    --noir : #000;
+    --beige: #F2E1C2;
+    --beige-dark: #D3C5A9;
+
+    
+    --bleu: #77BFCB;
+    --bleu-pale: #95F0FF;
+    --bleu-gris: #193D49;
+    
+
+
+    --rouge: #D93814;
+    --rouge-pale: #FF4218;
+    --rouge-dark: #802408;
+
+    --orange: #EA7503;
+    --orange-pale: #FF8003;
+    --orange-dark: #884504;
+
+    --jaune: #F2BC1B;
+    --jaune-pale: #FFD65D;
+    --jaune-dark: #8f6e0c;
+
+    /*[ Taille ]*/
+    --xxxs: 8px;
+    --xxs: 16px;
+    --xs: 24px;
+    --s: 32px;
+    --m: 48px;
+    --l: 64px;
+    --xl: 96px;
+    --xxl: 160px;
+    --xxxl: 320px;
+}

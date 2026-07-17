@@ -1,0 +1,268 @@
+/*[ COMPOSANT DU CARROUSEL SWIPER ]*/
+/* ------------------------------------------------------------ */
+
+/*[ Stucture du conteneur global du carrousel ]*/
+.carrousel--fenetre--plat {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    max-height: 40vh;
+    z-index: 1;
+
+    @media (min-width: 1024px) {
+        max-height: 100%;
+        margin-top: 0;
+        width: 100%;
+    }
+}
+
+.swiper-wrapper {
+    /* overflow: hidden; */
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+.swiper {
+    width: 100%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.swiper-slide {
+    background-size: cover;
+    background-position: center;
+}
+
+.main-swiper {
+    height: 75%;
+    width: 100%;
+}
+
+.thumb-swiper {
+    height: 25%;
+    box-sizing: border-box;
+    padding: 10px 0;
+}
+
+.thumb-swiper .swiper-slide {
+    width: 25%;
+    height: 100%;
+    opacity: 0.4;
+}
+
+.thumb-swiper .swiper-slide-thumb-active {
+    opacity: 1;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper--categorie--plats {
+    overflow: visible;
+}
+
+
+.slide--command {
+    position: absolute;
+    z-index: 1000;
+    bottom: -4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 16px;
+
+
+    @media (min-width: 1024px) {
+        bottom: -5rem;
+        height: 16px;
+    }
+
+    @media (min-width: 1440px) {
+        bottom: -7rem;
+        height: 20px;
+    }
+
+    .swiper-pagination-bullet {
+        position: relative;
+        z-index: 1000;
+        border-radius: 50%;
+        width: 12px;
+        height: 12px;
+        margin: 0 1rem !important;
+
+        @media (min-width: 1024px) {
+            width: 16px;
+            height: 16px;
+        }
+
+        @media (min-width: 1440px) {
+            width: 20px;
+            height: 20px;
+        }
+    }
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    height: 30px;
+    z-index: 1;
+
+    @media (min-width: 500px) {
+        height: 40px;
+    }
+
+
+    @media (min-width: 748px) {
+        height: 50px;
+    }
+
+
+    @media (min-width: 1024px) {
+        height: 60px;
+    }
+
+    @media (min-width: 1440px) {
+        height: 70px;
+    }
+}
+
+
+.swiper-button-next {
+    right: -20px;
+}
+
+.swiper-button-prev {
+    left: -20px;
+
+}
+
+
+.fenetre--plat--contenu .carrousel--fenetre--plat {
+
+    .swiper-button-next,
+    .swiper-button-prev {
+        display: none;
+
+        @media (min-width: 500px) {
+            display: block;
+        }
+
+        position: absolute;
+        top: 40%;
+        z-index: 1000;
+    }
+
+}
+
+
+.rouge {
+
+    .swiper-button-next,
+    .swiper-button-prev {
+        color: var(--rouge);
+    }
+
+    .swiper-pagination-bullet-active {
+        background-color: var(--rouge);
+    }
+}
+
+.orange {
+
+    .swiper-button-next,
+    .swiper-button-prev {
+        color: var(--orange);
+    }
+
+    .swiper-pagination-bullet-active {
+        background-color: var(--orange);
+    }
+}
+
+.jaune {
+
+    .swiper-button-next,
+    .swiper-button-prev {
+        color: var(--jaune);
+    }
+
+    .swiper-pagination-bullet-active {
+        background-color: var(--jaune);
+    }
+}
+
+.bleu {
+
+    .swiper-button-next,
+    .swiper-button-prev {
+        color: var(--bleu-pale);
+    }
+
+    .swiper-pagination-bullet-active {
+        background-color: var(--bleu-pale);
+    }
+}
+
+.bleu--gris {
+
+    .swiper-button-next,
+    .swiper-button-prev {
+        color: var(--bleu-gris);
+    }
+
+    .swiper-pagination-bullet-active {
+        background-color: var(--bleu-gris);
+    }
+}
+
+.swiper--categorie--plats {
+    @media (min-width: 1440px) {
+        height: 380px;
+    }
+
+    .swiper-slide .div--plat {
+        scale: 1;
+        transition: scale 0.2s;
+    }
+
+    .swiper-slide-active .div--plat {
+        scale: 1.2;
+    }
+     .swiper-slide-active .div--plat:hover {
+        scale: 1.3;
+    }
+
+    .swiper-slide-prev {
+        justify-content: flex-end;
+    }
+
+    .swiper-slide-next {
+        justify-content: flex-start;
+    }
+}

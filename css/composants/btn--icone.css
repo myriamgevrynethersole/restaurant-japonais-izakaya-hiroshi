@@ -1,0 +1,49 @@
+/* BTN MENU */
+/* ------------------------------------------------------------ */
+.btn--icone {
+
+    z-index: 4;
+    position: relative;
+    width: inherit;
+    cursor: pointer;
+    padding: 8px;
+
+}
+
+.btn--icone--fermer--fenetre {
+
+  
+}
+
+div.btn--icone--container {
+    position: relative;
+    display: grid;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    margin: var(--xxs);
+
+
+     @media (min-width: 748px) {
+
+        height: 60px;
+        width: 60px;
+    }
+
+    @media (min-width: 1024px) {
+        margin: var(--xs);
+        height: var(--xl);
+        width: var(--xl);
+    }
+
+    @media (min-width: 1440px) {
+        height: var(--xl);
+        width: var(--xl);
+        margin: var(--s);
+    }
+
+    #btn--menu {
+        position: fixed;
+
+    }
+}

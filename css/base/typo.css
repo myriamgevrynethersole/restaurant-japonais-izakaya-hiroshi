@@ -1,0 +1,52 @@
+/* typographie */
+/* ------------------------------------------------------------ */
+@font-face {
+    font-family: 'Hoshiko Satsuki';
+    src: url('../../assets/fonts/Hoshiko\ Satsuki.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Arboreto';
+    src: url('../../assets/fonts/Aboreto-Regular.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Louis George Cafe Regular';
+    src: url('../../assets/fonts/louis_george_cafe/Louis\ George\ Cafe.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Louis George Cafe Bold';
+    src: url('../../assets/fonts/louis_george_cafe/Louis\ George\ Cafe\ Bold.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Louis George Cafe Bold Italic';
+    src: url('../../assets/fonts/louis_george_cafe/Louis\ George\ Cafe\ Bold\ Italic.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Louis George Cafe Italic';
+    src: url('../../assets/fonts/louis_george_cafe/Louis\ George\ Cafe\ Italic.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Louis George Cafe Light';
+    src: url('../../assets/fonts/louis_george_cafe/Louis\ George\ Cafe\ Light.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Louis George Cafe Light Italic';
+    src: url('../../assets/fonts/louis_george_cafe/Louis\ George\ Cafe\ Light\ Italic.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}

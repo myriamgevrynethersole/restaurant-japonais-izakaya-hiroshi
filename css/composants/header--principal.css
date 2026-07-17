@@ -1,0 +1,21 @@
+/*[ COMPOSANT HEADER ]*/
+/* ------------------------------------------------------------ */
+
+#header--principal {
+    position: relative;
+
+}
+#div--header--fixed {
+    position: fixed;
+    z-index: 10;
+    width: 98vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    right: 50%;
+    translate: 50% 0% ;
+    background-color: rgba(255, 246, 230, 0.75);
+    border-radius:  0px  0px 30px 30px;
+
+    
+}

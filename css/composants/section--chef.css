@@ -1,0 +1,72 @@
+/* SECTION_CHEF */
+/* ------------------------------------------------------------ */
+section#section_chef {
+    z-index: 2;
+    position: relative;
+    color: var(--blanc);
+    background-color: var(--bleu-gris);
+
+
+    #div_chef {
+        position: relative;
+
+        z-index: 2;
+        box-sizing: border-box;
+
+
+        .contenue_section_chef {
+
+            display: grid;
+
+            grid-template-rows: auto auto;
+            grid-template-columns: 1fr;
+            justify-items: center;
+            gap: var(--xxs);
+
+
+            @media (min-width: 1024px) {
+                /* padding: var(--s) var(--s); */
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: auto;
+            }
+
+            #info-chef {
+                display: flex;
+                flex-direction: column;
+                gap: var(--xxs);
+            }
+
+
+
+
+            #photo_chef {
+                width: 200px;
+                height: 200px;
+                object-fit: cover;
+                align-self: center;
+
+                @media (min-width: 500px) {
+                    width: 400px;
+                    height: 300px;
+                }
+
+                @media (min-width: 1024px) {
+                    width: 400px;
+                    height: 500px;
+                }
+            }
+
+
+
+
+
+
+        }
+
+    }
+
+
+  
+
+   
+}

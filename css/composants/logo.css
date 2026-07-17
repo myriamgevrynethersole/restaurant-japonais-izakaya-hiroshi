@@ -1,0 +1,61 @@
+/*[ COMPOSANT HEADER -- LOGO ]*/
+/* ------------------------------------------------------------ */
+.lien--logo {
+    margin: var(--xxs);
+    width: 50px;
+    height: 50px;
+    display: block;
+
+    @media (min-width: 748px) {
+
+        height: 60px;
+        width: 60px;
+    }
+
+    @media (min-width: 1024px) {
+        margin: var(--xs);
+        height: var(--xl);
+        width: var(--xl);
+    }
+
+    @media (min-width: 1440px) {
+        height: var(--xl);
+        width: var(--xl);
+        margin: var(--s);
+    }
+}
+
+
+.logo-header--mobile {
+    position: relative;
+    height: inherit;
+    width: inherit;
+    z-index: 200;
+
+
+    @media (min-width: 1024px) {
+        height: 0px;
+        width: 0px;
+
+    }
+
+}
+
+.logo-header {
+    position: relative;
+    height: 0px;
+    width: 0px;
+    z-index: 100;
+
+    @media (min-width: 1024px) {
+        height: inherit;
+        width: inherit;
+
+    }
+
+
+}
+.logo--footer{
+   position: absolute;
+   z-index: 1;
+}

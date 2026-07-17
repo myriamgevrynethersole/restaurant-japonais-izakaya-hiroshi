@@ -1,0 +1,155 @@
+/* DIV CONTENUE EN VEDETTE */
+/* ------------------------------------------------------------ */
+.contenue-en-vedette {
+    .div--plat--en--veddette--container {
+        position: relative;
+        height: var(--xxl);
+        margin: 30% 0;
+        z-index: 1;
+
+        @media (min-width: 748px) {
+            height: 250px;
+        }
+
+        @media (min-width: 1024px) {
+            height: 300px;
+        }
+
+        @media (min-width: 1440px) {
+            height: 400px;
+        }
+
+
+        .baguette {
+            position: absolute;
+            width: 900px;
+            pointer-events: none;
+            top: -40px;
+            z-index: 3;
+            right: 10px;
+
+
+
+
+            @media (min-width: 748px) {
+                top: -75px;
+                width: 1500px;
+            }
+
+            @media (min-width: 1440px) {
+                top: -125px;
+                width: 2500px;
+            }
+
+            img.baguette {
+                position: relative;
+
+
+            }
+        }
+
+        .div--plat--en--vedette {
+            transform: scaleX(-1);
+            position: absolute;
+            height: inherit;
+            width: 300px;
+            mask-image: url("../../assets/images/svg/forme_sushi.svg");
+            mask-repeat: no-repeat;
+            mask-size: contain;
+            mask-position: end;
+            right: 10px;
+            top: 5px;
+            z-index: 2;
+
+            @media (min-width: 748px) {
+                width: 500px;
+            }
+
+            @media (min-width: 1024px) {
+                width: 700px;
+                top: -25px;
+
+            }
+
+            @media (min-width: 1440px) {
+                width: 800px;
+            }
+
+            img.img--plat {
+                position: absolute;
+                height: inherit;
+                width: inherit;
+                z-index: -1;
+                object-fit: cover;
+
+
+            }
+
+            .info--plat--en--vedette {
+
+                overflow-x: hidden;
+                color: var(--blanc);
+                z-index: 5;
+
+                background-color: rgba(25, 61, 73, 0.75);
+                position: absolute;
+                top: 50%;
+                width: 0%;
+                transform: translate(0%, -50%);
+                padding: 0px;
+
+                h3,
+                p {
+                    padding: 0px var(--s);
+
+                    @media (min-width: 748px) {
+                        padding: 0px var(--m);
+                    }
+
+                    @media (min-width: 1024px) {
+                        padding: 0px var(--l);
+                    }
+
+                }
+
+
+            }
+
+            @media (min-width: 1024px) {
+                translate: -20px 0px;
+            }
+
+
+        }
+
+
+
+    }
+
+    .div--plat--en--vedette--container:nth-child(even) .div--plat--en--vedette .info--plat--en--vedette  {
+        z-index: 2;
+
+
+    }
+
+    .div--plat--en--veddette--container:nth-child(odd) .div--plat--en--vedette .info--plat--en--vedette {
+        scale: -1 1;
+        text-align: right;
+
+
+    }
+
+    .div--plat--en--veddette--container:nth-child(even) {
+        z-index: 2;
+        transform: scaleX(-1);
+
+
+
+
+    }
+
+    .div--plat--en--veddette--container:nth-child(even) .div--plat--en--vedette--container--animer .div--plat--en--vedette .info--plat--en--vedette {
+        scale: 1 1;
+        text-align: left;
+    }
+}
