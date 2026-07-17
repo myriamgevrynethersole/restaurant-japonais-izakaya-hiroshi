@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2211.91 797.61">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #78bfcb;
+        stroke: #193d49;
+        stroke-miterlimit: 10;
+        stroke-width: 100px;
+      }
+    </style>
+  </defs>
+  <g id="bol02">
+    <g id="bol_deriere">
+      <path class="cls-1" d="M2049.16,747.61c112.72-268.32,112.75-525.16,112.75-525.16,0-95.24-472.76-172.45-1055.95-172.45S50,127.21,50,222.45c0,0,0,256.84,117.59,525.16h1881.57Z"/>
+    </g>
+  </g>
+</svg>
