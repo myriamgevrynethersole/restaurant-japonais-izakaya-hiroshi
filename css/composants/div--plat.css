@@ -20,26 +20,30 @@
 }
 
 .div--plat {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   position: relative;
-  height: 280px;
-  width: auto;
-  grid-template-rows: 50% 50%;
-  gap: var(--xxxs);
-  border-radius: 30px;
-  background-color: var(--rouge-dark);
-  margin: 0;
-  padding: var(--xs);
-  aspect-ratio: 4 / 5;
+  width: 100%;
 
-  @media (min-width: 748px) {}
+  gap: var(--xxxs);
+  margin: 0;
+  margin: 0 1rem;
+  height: 300px;
+
+  @media (min-width: 748px) {
+    height: 350px;
+    margin: 0 1.5rem;
+
+  }
 
   @media (min-width: 1024px) {
-    height: 300px;
+    height: 400px;
+    margin: 0 2rem;
   }
 
   @media (min-width: 1440px) {
-     height: 400px;
+    height: 500px;
+    margin: 0 3rem;
   }
 
 
@@ -47,23 +51,71 @@
 
   .image--plat {
     z-index: 0;
-    object-fit: cover;
-    border-radius: 15px;
-    max-height: 100%;
+    object-fit: contain;
+    height: 170px;
+    padding: var(--xxs);
+    align-self: start;
+
+    @media (min-width: 748px) {
+      height: 200px;
+    }
+
+
+    @media (min-width: 1440px) {
+      height: 225px;
+    }
+
 
   }
 
   .info--plat {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     border-radius: 15px;
     z-index: 1;
     width: 100%;
+    height: 100%;
     overflow-x: hidden;
-    color: var(--blanc);
+    color: var(--noir);
     text-align: center;
-    align-self: center;
+    align-self: start;
+    padding: 0 16px;
+
+    .description {
+      font-family: 'Louis George Cafe Light Italic', sans-serif;
+      font-size: 10px;
+
+      @media (min-width: 748px) {
+        font-size: 12px;
+        padding: 0 8px;
+      }
+
+
+      @media (min-width: 1024px) {
+        font-size: var(--xxs);
+        padding: 0;
+      }
+
+      @media (min-width: 1440px) {
+        font-size: 22px;
+      }
+    }
+
+    .prix {
+      font-family: 'Louis George Cafe', sans-serif;
+      font-size: 12px;
+
+      @media (min-width: 748px) {
+        font-size: 14px;
+      }
+
+
+      @media (min-width: 1024px) {
+        font-size: 18px;
+      }
+
+      @media (min-width: 1440px) {
+        font-size: var(--xs);
+      }
+    }
 
   }
 
@@ -72,36 +124,36 @@
 }
 
 .rouge {
-  .div--plat {
-    background-color: var(--rouge-dark);
-    
+  .info--plat {
+    color: var(--rouge-dark);
+
 
   }
 }
 
 .orange {
-  .div--plat {
-    background-color: var(--orange-dark);
+  .info--plat {
+    color: var(--orange-dark);
     ;
 
-  
+
   }
 }
 
 .jaune {
-  .div--plat {
-    background-color: var(--jaune-dark);
+  .info--plat {
+    color: var(--jaune-dark);
   }
 }
 
 .bleu {
-  .div--plat {
-    background-color: var(--bleu);
+  .info--plat {
+    color: var(--bleu);
   }
 }
 
 .bleu--gris {
-  .div--plat {
-    background-color: var(--bleu-gris);
+  .info--plat {
+    color: var(--bleu-gris);
   }
 }

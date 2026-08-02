@@ -3,8 +3,8 @@
         <img src="<?php echo $plat['images'][0] ?>" alt="" class="image--plat">
         <div class="info--plat">
             <h3><?php echo $plat['nom'] ?></h3>
-            <p> <?php echo $plat['description']; ?> </p>
-            <p><?php echo $plat['prix'] ?></p>
+            <p class="description"> <?php echo $plat['description']; ?> </p>
+            <p class="prix"><?php echo $plat['prix'] ?></p>
             
             
         </div>
