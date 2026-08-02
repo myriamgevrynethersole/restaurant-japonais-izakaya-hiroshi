@@ -82,25 +82,9 @@ function selectioneButton(num) {
 };
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - -
-// Ouverture et la fermeture des infos plats
+// Ouverture et la fermeture des infos p lats
 // Description : Gestion de l'ouverture du panneau et dévoilement des informations
 // - - - - - - - - - - - - - - - - - - - - - - - - - - -
-divPlats.forEach((plat, index) => {
-
-
-    plat.addEventListener("click", () => {
-        fenetrePlats[index].style.width = "95vw";
-        fenetrePlats[index].style.height = "80vh";
-
-
-    });
-
-    iconeFermer[index].addEventListener("click", () => {
-        fenetrePlats[index].style.width = "0vw";
-        fenetrePlats[index].style.height = "0vh";
-
-    });
-});
 
 divPlatsVedette.forEach((platVedette, index) => {
 
@@ -113,15 +97,5 @@ divPlatsVedette.forEach((platVedette, index) => {
 
     });
 
-    platVedette.addEventListener("click", () => {
-        fenetrePlats[index].style.width = "95vw";
-        fenetrePlats[index].style.height = "80vh";
 
-    });
-
-    iconeFermer[index].addEventListener("click", () => {
-        fenetrePlats[index].style.height = "0vh";
-
-
-    });
 });

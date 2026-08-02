@@ -21,17 +21,4 @@
         <div class="swiper-button-prev swiper-button-prev-<?php echo $indexCategory ?>"></div>
     </div>
 
-    <div class="fenetres--plats">
-        <?php
-        if ($filtres) {
-            foreach ($category as $indexFenetre => $plat) {
-                include 'components/fenetre_plat.php';
-            }
-        } else {
-            foreach ($plats as $indexFenetre => $plat) {
-                include 'components/fenetre_plat.php';
-            }
-        }
-        ?>
-    </div>
 </div>
