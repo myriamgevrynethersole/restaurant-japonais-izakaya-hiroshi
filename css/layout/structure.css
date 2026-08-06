@@ -2,14 +2,14 @@
 /* ------------------------------------------------------------ */
 .interface {
     display: flow-root;
-    height:auto;
+    height: auto;
     box-sizing: border-box;
     background-color: var(--blanc);
     position: relative;
     max-width: 100dvw;
     min-height: 100dvh;
-   
-  
+
+
     background-image: url("../../assets/images/png/motif01.png");
 
     background-position: center;
@@ -23,9 +23,9 @@
 
 section {
     overflow: hidden;
-    background-color:  rgba(255, 246, 230, 0.75);
-    padding: var(--xxs); 
-    
+    background-color: rgba(255, 246, 230, 0.75);
+    padding: var(--xxs);
+
     @media (min-width: 748px) {
         padding: var(--xs);
     }
@@ -72,6 +72,25 @@ h3 {
 
     @media (min-width: 1440px) {
         font-size: var(--s);
+    }
+
+    span {
+        font-family: 'Louis George Cafe Italic';
+        font-size: 12px;
+
+        @media (min-width: 748px) {
+            font-size: 16px;
+        }
+
+
+        @media (min-width: 1024px) {
+            font-size: 20px;
+        }
+
+        @media (min-width: 1440px) {
+            font-size: 28px;
+        }
+
     }
 
 }

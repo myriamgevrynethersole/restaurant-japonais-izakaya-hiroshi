@@ -2,19 +2,19 @@
 $plats = [
     'sushi et sashamis' => [
         [
-            'nom' => "Assortiment de makis et nigiris (12 morceaux), soupe miso et salade de wakame",
+            'nom' => "Assortiment de makis et nigiris <span>(12 morceaux)</span>, soupe miso et salade de wakame",
             'description' => "Sélection du chef",
             'prix' => "42$",
             'images' => "./assets/images/png/plats/sushis_et_sashimis/makis_nigiris.png"
         ],
         [
-            'nom' => "Assortiment de sashimis (10 morceaux), soupe miso et salade de wakame",
+            'nom' => "Assortiment de sashimis <span>(10 morceaux)</span>, soupe miso et salade de wakame",
             'description' => "Sélection du chef",
             'prix' => "48$",
             'images' => "./assets/images/png/plats/sushis_et_sashimis/sashimis.png"
         ],
         [
-            'nom' => "Assortiment de makis et hosomakis et nigiris (12 morceaux), soupe miso et salade de wakame",
+            'nom' => "Assortiment de makis et hosomakis et nigiris <span>(12 morceaux)</span>, soupe miso et salade de wakame",
             'description' => "Sélection du chef",
             'prix' => "34$",
             'images' => "./assets/images/png/plats/sushis_et_sashimis/makis_hosomakis_nigiris.png"
@@ -26,7 +26,7 @@ $plats = [
             'images' => "./assets/images/png/plats/sushis_et_sashimis/chirashi_sushi.png"
         ],
         [
-            'nom' => 'Plateau Omakase (pour 2 personnes), soupe miso et salade de wakame',
+            'nom' => 'Plateau Omakase <span>(pour 2 personnes)</span>, soupe miso et salade de wakame',
             'description' => "Sélection exclusive du chef",
             'prix' => "88$",
             'images' => "./assets/images/png/plats/sushis_et_sashimis/plateau_omakase.png"
@@ -58,7 +58,7 @@ $plats = [
             'images' => "./assets/images/png/plats/grillades/ramen_miso_maison.png"
         ],
         [
-            'nom' => "Assortiment de brochette yakitori (10 morceaux)",
+            'nom' => "Assortiment de brochette yakitori <span>(10 morceaux)</span>",
             'description' => "Brochettes de poulet, bœuf et crevettes, accompagnées de riz et d’une Sapporo.",
             'prix' => "40$",
             'images' => "./assets/images/png/plats/grillades/assortiment_de_brochette_yakitori_10_morceaux.png"
@@ -78,7 +78,7 @@ $plats = [
             'images' => "./assets/images/png/plats/vegetarien/donburi_au_tofu_caramelise.png"
         ],
         [
-            'nom' => "Sushis végétariens (10 morceaux)",
+            'nom' => "Sushis végétariens <span>(10 morceaux)</span>",
             'description' => "Avocat, concombre, champignon, mangue, radis mariné",
             'prix' => "30$",
             'images' => "./assets/images/png/plats/vegetarien/sushis_vegetariens_10_morceaux.png"
