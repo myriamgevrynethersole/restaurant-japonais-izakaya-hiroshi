@@ -1,7 +1,7 @@
 /* DIV CONTENUE EN VEDETTE */
 /* ------------------------------------------------------------ */
 .contenue-en-vedette {
-    .div--plat--en--veddette--container {
+    .div--plat--en--vedette--container {
         position: relative;
         height: var(--xxl);
         margin: 30% 0;
@@ -94,23 +94,11 @@
                 background-color: rgba(25, 61, 73, 0.75);
                 position: absolute;
                 top: 50%;
-                width: 0%;
+                width: 100%;
                 transform: translate(0%, -50%);
                 padding: 0px;
 
-                h3,
-                p {
-                    padding: 0px var(--s);
 
-                    @media (min-width: 748px) {
-                        padding: 0px var(--m);
-                    }
-
-                    @media (min-width: 1024px) {
-                        padding: 0px var(--l);
-                    }
-
-                }
 
 
             }
@@ -126,30 +114,50 @@
 
     }
 
-    .div--plat--en--vedette--container:nth-child(even) .div--plat--en--vedette .info--plat--en--vedette  {
+    .div--plat--en--vedette--container:nth-child(even) .div--plat--en--vedette .info--plat--en--vedette {
         z-index: 2;
+        scale: 1 1;
+        text-align: left;
 
+        
+        padding: 0px 82px 0px var(--s);
+
+        @media (min-width: 748px) {
+            padding: 0px var(--xxl) 0px var(--m);
+        }
+
+        @media (min-width: 1024px) {
+            padding:  0px 300px 0px var(--l);
+        }
 
     }
 
-    .div--plat--en--veddette--container:nth-child(odd) .div--plat--en--vedette .info--plat--en--vedette {
+    .div--plat--en--vedette--container:nth-child(odd) .div--plat--en--vedette .info--plat--en--vedette {
         scale: -1 1;
         text-align: right;
 
 
+        padding: 0px var(--s) 0px 82px;
+
+        @media (min-width: 748px) {
+            padding: 0px var(--m) 0px var(--xxl);
+        }
+
+        @media (min-width: 1024px) {
+            padding: 0px var(--l) 0px 300px;
+        }
+
+
+
+
     }
 
-    .div--plat--en--veddette--container:nth-child(even) {
+    .div--plat--en--vedette--container:nth-child(even) {
         z-index: 2;
         transform: scaleX(-1);
 
 
 
 
-    }
-
-    .div--plat--en--veddette--container:nth-child(even) .div--plat--en--vedette--container--animer .div--plat--en--vedette .info--plat--en--vedette {
-        scale: 1 1;
-        text-align: left;
     }
 }
