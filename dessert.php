@@ -2,34 +2,40 @@
 $plats = [
 
     [
-        'nom' => "Repas 01",
-        'description' => "Sélection du chef",
-        'prix' => '42$',
-        'images' => ['./assets/images/svg/placeholder.svg', './assets/images/svg/placeholder.svg', './assets/images/svg/placeholder.svg']
+        'nom' => "Mochis glacés assortis",
+        'description' => "Matcha, mangue, sésame noir",
+        'prix' => "12$",
+        'images' => "./assets/images/png/desserts/mochis_glaces_assortis.png"
     ],
     [
-        'nom' => "Repas 02",
-        'description' => "Gyozas maison aux légumes et sauce ponzu, brochettes robatayaki variées (bœuf wagyu, poulet teriyaki, champignons shiitake), crème glacée au sésame noir et biscuit croquant. Inclus un verre de sake ",
-        'prix' => '72$',
-        'images' => ['./assets/images/svg/placeholder.svg', './assets/images/svg/placeholder.svg', './assets/images/svg/placeholder.svg']
+        'nom' => "Dorayaki au haricot rouge",
+        'description' => "Pancakes japonais, pâte de haricot azuki",
+        'prix' => "10$",
+        'images' => "./assets/images/png/desserts/dorayaki_au haricot_rouge.png"
     ],
     [
-        'nom' => "Repas 03",
-        'description' => "Sashimi de thon et saumon, sauce yuzu, tataki de bœuf wagyu, légumes grillés et sauce miso, mochis variés (sésame noir, matcha, mangue). Inclus 2 verres de sake ",
-        'prix' => '84$',
-        'images' => ['./assets/images/svg/placeholder.svg', './assets/images/svg/placeholder.svg', './assets/images/svg/placeholder.svg']
+        'nom' => "Cheesecake au yuzu",
+        'description' => "Crémeux et acidulé, coulis de fruits rouges",
+        'prix' => "12$",
+        'images' => "./assets/images/png/desserts/cheesecake_au_yuzu.png"
     ],
     [
-        'nom' => 'Repas 04',
-        'description' => "Le menu 7 services propose une découverte de la cuisine japonaise, avec des sushis et grillades mettant en valeur des saveurs simples et fraîches. L’accord mets et vins est inclus. ",
-        'prix' => '250$ / personnes',
-        'images' => ['./assets/images/svg/placeholder.svg', './assets/images/svg/placeholder.svg', './assets/images/svg/placeholder.svg']
+        'nom' => "Gâteau au matcha et chocolat blanc",
+        'description' => "Fondant, sauce caramel miso",
+        'prix' => "12$",
+        'images' => "./assets/images/png/desserts/gateau_au_matcha_et_chocolat_blanc.png"
     ],
     [
-        'nom' => 'Repas 05',
-        'description' => "Le menu 7 services propose une découverte de la cuisine japonaise, avec des sushis et grillades mettant en valeur des saveurs simples et fraîches. L’accord mets et vins est inclus. ",
-        'prix' => '250$ / personnes',
-        'images' => ['./assets/images/svg/placeholder.svg', './assets/images/svg/placeholder.svg', './assets/images/svg/placeholder.svg']
+        'nom' => "Glace artisanale au sésame noir",
+        'description' => "Crémeuse et légèrement sucrée",
+        'prix' => "10$",
+        'images' => "./assets/images/png/desserts/glace_artisanale_au_sesame_noir.png"
+    ],
+    [
+        'nom' => "Taiyaki fourré à la crème pâtissière",
+        'description' => "Gaufre japonaise en forme de poisson",
+        'prix' => "10$",
+        'images' => "./assets/images/png/desserts/taiyaki_fourre_a_la_creme_patissiere.png"
     ]
 
 
