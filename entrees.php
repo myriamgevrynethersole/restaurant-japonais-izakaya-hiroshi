@@ -1,35 +1,54 @@
 <?php
 $plats = [
     [
-        'nom' => "Repas 01",
-        'description' => "Sélection du chef",
-        'prix' => '42$',
-        'images' => ['./assets/images/jpg/plats/sushis_et_sashimis/chirashi_sushi_cote.jpg', './assets/images/svg/placeholder.svg', './assets/images/svg/placeholder.svg']
+        'nom' => "Edamame au sel de mer fumé",
+        'description' => "Fèves de soja vapeur, sel fumé et zeste de yuzu",
+        'prix' => "10$",
+        'images' => "./assets/images/png/entrees/edamame.png",
     ],
     [
-        'nom' => "Repas 02",
-        'description' => "Gyozas maison aux légumes et sauce ponzu, brochettes robatayaki variées (bœuf wagyu, poulet teriyaki, champignons shiitake), crème glacée au sésame noir et biscuit croquant. Inclus un verre de sake ",
-        'prix' => '72$',
-        'images' => ['./assets/images/jpg/plats/sushis_et_sashimis/makis_hosomakis_nigiris_cote.jpg', './assets/images/svg/placeholder.svg', './assets/images/svg/placeholder.svg']
+        'nom' => "Tataki de thon rouge",
+        'description' => "Thon saisi, sauce ponzu, gingembre mariné",
+        'prix' => "16$",
+        'images' => "./assets/images/png/entrees/tataki.png",
     ],
     [
-        'nom' => "Repas 03",
-        'description' => "Sashimi de thon et saumon, sauce yuzu, tataki de bœuf wagyu, légumes grillés et sauce miso, mochis variés (sésame noir, matcha, mangue). Inclus 2 verres de sake ",
-        'prix' => '84$',
-        'images' => ['./assets/images/jpg/plats/sushis_et_sashimis/makis_nigiris_cote.jpg', './assets/images/svg/placeholder.svg', './assets/images/svg/placeholder.svg']
+        'nom' => "Gyoza de porc et crevettes",
+        'description' => "Raviolis grillés, sauce miso épicée",
+        'prix' => "14$",
+        'images' => "./assets/images/png/entrees/gyoza.png"
     ],
     [
-        'nom' => 'Repas 04',
-        'description' => "Le menu 7 services propose une découverte de la cuisine japonaise, avec des sushis et grillades mettant en valeur des saveurs simples et fraîches. L’accord mets et vins est inclus. ",
-        'prix' => '250$ / personnes',
-        'images' => ['./assets/images/jpg/plats/sushis_et_sashimis/plateau_omakase_cote.jpg', './assets/images/svg/placeholder.svg', './assets/images/svg/placeholder.svg']
+        'nom' => "Salade wakame et sésame noir",
+        'description' => "Algues marinées, vinaigrette soja-sésame",
+        'prix' => "15$",
+        'images' => "./assets/images/png/entrees/salade.png"
     ],
     [
-        'nom' => 'Repas 05',
-        'description' => "Le menu 7 services propose une découverte de la cuisine japonaise, avec des sushis et grillades mettant en valeur des saveurs simples et fraîches. L’accord mets et vins est inclus. ",
-        'prix' => '250$ / personnes',
-        'images' => ['./assets/images/jpg/plats/sushis_et_sashimis/sashimis_cote.jpg', './assets/images/svg/placeholder.svg', './assets/images/svg/placeholder.svg']
+        'nom' => "Soupe miso traditionnelle",
+        'description' => "Bouillon miso, tofu, algues wakame, oignons verts",
+        'prix' => "8$",
+        'images' => "./assets/images/png/entrees/soupe.png"
+    ],
+    [
+        'nom' => "Tempura de crevettes",
+        'description' => "Pâte croustillante, sauce tentsuyu",
+        'prix' => "14$",
+        'images' => "./assets/images/png/entrees/tempura.png"
+    ],
+    [
+        'nom' => "Tartare de saumon façon japonaise",
+        'description' => "Saumon, huile de sésame, shiso, tobiko",
+        'prix' => "18$",
+        'images' => "./assets/images/png/entrees/tartare.png"
+    ],
+    [
+        'nom' => "Yakitori de poulet",
+        'description' => "Brochettes de poulet laqué, sauce tare maison",
+        'prix' => "16$",
+        'images' => "./assets/images/png/entrees/yakitori.png"
     ]
+    
 ];
 $ilustrationAnimer = "./assets/images/svg/grillades.svg";
 $titre = "Entrées";

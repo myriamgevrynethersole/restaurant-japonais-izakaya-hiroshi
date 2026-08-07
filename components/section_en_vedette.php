@@ -12,10 +12,6 @@
         foreach ($plats_en_vedette as $plat) {
             include 'components/div_plats_en_vedette.php';
         }
-        foreach ($plats_en_vedette as $indexFenetre => $plat) {
-            include 'components/fenetre_plat.php';
-            
-        }
         ?>
 
     </div>
