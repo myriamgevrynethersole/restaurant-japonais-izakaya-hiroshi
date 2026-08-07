@@ -4,26 +4,26 @@ $plats_en_vedette = [
         'nom' => "Table d'hôte option 1",
         'description' => "Salade d’algues wakamé et sésame, sushi assortis (10 morceaux, choix du chef), Dorayaki au matcha et crème de haricots rouges, thé vert inclus ",
         'prix' => '65$',
-        'images' => ['./assets/images/svg/placeholder.svg', './assets/images/svg/placeholder.svg', './assets/images/svg/placeholder.svg']
-    ],
+        'images' => "./assets/images/jpg/en_vedette/table_hote_option1.jpg"
+        ],
     [
         'nom' => "Table d'hôte option 2",
         'description' => "Gyozas maison aux légumes et sauce ponzu, brochettes robatayaki variées (bœuf wagyu, poulet teriyaki, champignons shiitake), crème glacée au sésame noir et biscuit croquant. Inclus un verre de sake ",
         'prix' => '72$',
-        'images' => ['./assets/images/svg/placeholder.svg', './assets/images/svg/placeholder.svg', './assets/images/svg/placeholder.svg']
-    ],
+        'images' => "./assets/images/jpg/en_vedette/table_hote_option2.jpg"
+        ],
     [
         'nom' => "Table d'hôte option 3",
         'description' => "Sashimi de thon et saumon, sauce yuzu, tataki de bœuf wagyu, légumes grillés et sauce miso, mochis variés (sésame noir, matcha, mangue). Inclus 2 verres de sake ",
         'prix' => '84$',
-        'images' => ['./assets/images/svg/placeholder.svg', './assets/images/svg/placeholder.svg', './assets/images/svg/placeholder.svg']
-    ],
+        'images' => "./assets/images/jpg/en_vedette/table_hote_option3.jpg"
+        ],
     [
         'nom' => 'Menu 7 services ',
         'description' => "Le menu 7 services propose une découverte de la cuisine japonaise, avec des sushis et grillades mettant en valeur des saveurs simples et fraîches. L’accord mets et vins est inclus. ",
         'prix' => '250$ / personnes',
-        'images' => ['./assets/images/svg/placeholder.svg', './assets/images/svg/placeholder.svg', './assets/images/svg/placeholder.svg']
-    ]
+        'images' => "./assets/images/jpg/en_vedette/menu_7_services.jpg"
+        ]
 ];
 $ilustrationAnimer = "./assets/images/svg/repas03.svg";
 $titre = "Izakaya Hiroshi";
