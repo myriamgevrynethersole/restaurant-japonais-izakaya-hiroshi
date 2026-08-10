@@ -14,11 +14,11 @@
             ?>
         </div>
         <div class="slide--command">
+            <div class="swiper-button-prev swiper-button-prev-<?php echo $indexCategory ?>"></div>
             <div class="swiper-pagination"></div>
+            <div class="swiper-button-next swiper-button-next-<?php echo $indexCategory ?>"></div>
         </div>
 
-        <div class="swiper-button-next swiper-button-next-<?php echo $indexCategory ?>"></div>
-        <div class="swiper-button-prev swiper-button-prev-<?php echo $indexCategory ?>"></div>
     </div>
 
 </div>

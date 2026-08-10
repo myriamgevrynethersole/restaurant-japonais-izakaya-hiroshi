@@ -10,7 +10,7 @@ const divPlats = document.querySelectorAll(".div--plat ");
 const fenetrePlats = document.querySelectorAll(".fenetre--plat");
 const iconeFermer = document.querySelectorAll(".btn--icone--fermer--fenetre");
 
-const divPlatsVedette = document.querySelectorAll(".div--plat--en--veddette--container");
+const divPlatsVedette = document.querySelectorAll(".div--plat--en--vedette--container");
 const infoPlatsVedette = document.querySelectorAll(".info--plat--en--vedette");
 
 const buttonsNavSecondaire = document.querySelectorAll(".button--nav--secondaire");
@@ -89,11 +89,11 @@ function selectioneButton(num) {
 divPlatsVedette.forEach((platVedette, index) => {
 
     platVedette.addEventListener("mouseover", () => {
-        infoPlatsVedette[index].style.width = "100%";
+        infoPlatsVedette[index].style.opacity = "1";
     });
 
     platVedette.addEventListener("mouseout", () => {
-        infoPlatsVedette[index].style.width = "0%";
+        infoPlatsVedette[index].style.opacity = "0";
 
     });
 

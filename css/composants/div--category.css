@@ -7,7 +7,8 @@ div.categorie {
     margin-bottom: var(--xl);
 
     @media (min-width: 748px) {
-        margin-top: var(--s);
+        margin-top: var(--s); 
+        margin-bottom: 100px;
     }
     @media (min-width: 1024px) {
         margin-top: var(--m);
