@@ -3,7 +3,7 @@
 // - - - - - - - - - - - - - - - - - - - - - - - - - - -
 // Variables et constantes du projet
 // - - - - - - - - - - - - - - - - - - - - - - - - - - -
-const divPlatsEnVedetteContainer = document.querySelectorAll(".div--plat--en--veddette--container");
+const divPlatsEnVedetteContainer = document.querySelectorAll(".div--plat--en--vedette--container");
 const divChef = document.querySelector("#div_chef");
 
 
